@@ -7,5 +7,5 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 ---
 
-##Install
+## Install
     python>=3.8
