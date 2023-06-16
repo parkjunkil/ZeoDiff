@@ -49,13 +49,15 @@ This package provides a diffusion model for the generation of pure silica zeolit
     $ tar -zxvf training.tar.gz
     $ tar -zxvf test.tar.gz
 
+    Specify the locations of the training and test directories while running the run.py. Check following examples.
+
 ### 3.2 Examples
 
 #### 3.2.1 unconditional
     
-    $ python run.py with train=True n_sample=1000 
+    $ python run.py with train=True n_sample=1000 train_dataset="../data/training/" test_dataset="../data/test/"
     
 #### 3.2.2 conditional (void fraction)
     
-    $ python run.py with train=False n_sample=1000 self_condition=True target_prop='VF'
+    $ python run.py with train=False n_sample=1000 self_condition=True target_prop='VF' train_dataset="../data/training/" test_dataset="../data/test/"
     
