@@ -12,7 +12,8 @@ This package provides a diffusion model for the generation of pure silica zeolit
     $ git clone git@github.com/parkjunkil/ZeoDiff
     $ pip install -e .
 
-    
+---------------------------------------
+
 ## 2. Generate New Samples using a pre-Trained Model
 
 ### 2.1 pre-trained Models
