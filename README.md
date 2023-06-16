@@ -28,15 +28,15 @@ If you want to train the model, please download training.tar.gz and test.tar.gz 
     - conditional_VF.ckpt : trained ZeoDiff model conditioned on void fraction
     - conditional_HOA.ckpt : trained ZeoDiff model conditioned on heat of adsorption
 
-unconditional
+### unconditional
     
     $ python run.py with train=False n_sample=1000 model='/models/unconditional.ckpt'
 
-conditional (void fraction of 0.20)
+### conditional (void fraction of 0.20)
     
     $ python run.py with train=False self_condition=True target_prop='VF' target_value=0.20 n_sample=1000 model='/models/conditional_VF.ckpt' sample_dir='sample_vf_0.20'
     
-onditional (heat of adsorption of 25 kJ/mol)
+### conditional (heat of adsorption of 25 kJ/mol)
     
     $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 model='/models/conditional_HOA.ckpt' sample_dir='sample_hoa_25'
 
