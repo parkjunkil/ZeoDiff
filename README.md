@@ -10,3 +10,9 @@ This package provides a diffusion model for the generation of pure silica zeolit
 ## Install
     $ git clone git@github.com/parkjunkil/ZeoDiff
     $ pip install -r -requirements.txt
+
+## Training/Test Data Download
+    Training and test data are available at "https://doi.org/10.6084/m9.figshare.xxxxxxxxx"
+    If you want train the model, please download training.tar.gz and test.tar.gz from the above link, unzip, and locate it under the repository
+    
+    
