@@ -76,3 +76,12 @@ This package provides a diffusion model for the generation of pure silica zeolit
 Please consider citing the following paper if you find this package useful.
 
 [To be linked](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.2c01822) 
+
+---------------------------------------
+
+## 5. Acknowledgements
+
+The package is primary developed by Junkil Park. Baekjun Kim greatly fully attributed for the data prepartion process and provided useful discussion
+
+The DDPM codebase and many utility functions are adapted from the hugging face [link](https://huggingface.co/blog/annotated-diffusion)
+
