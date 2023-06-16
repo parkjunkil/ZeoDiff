@@ -38,9 +38,6 @@ This package provides a diffusion model for the generation of pure silica zeolit
     $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 model='/models/conditional_HOA.ckpt' sample_dir='sample_hoa_25'
 
 ## Train New model
-
-
-## Training/Test Data Download
     
 ### Download Data    
 
@@ -51,3 +48,14 @@ This package provides a diffusion model for the generation of pure silica zeolit
     
     $ tar -zxvf training.tar.gz
     $ tar -zxvf test.tar.gz
+
+### Examples
+
+#### i) unconditional
+    
+    $ python run.py with train=True n_sample=1000 
+    
+#### ii) conditional (void fraction)
+    
+    $ python run.py with train=False n_sample=1000 self_condition=True target_prop='VF'
+    
