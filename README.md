@@ -7,15 +7,15 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 ---
 
-## Install
+## 1. Install
     
     $ git clone git@github.com/parkjunkil/ZeoDiff
     $ pip install -e .
 
     
-## Generate New Samples using pre-Trained Model
+## 2. Generate New Samples using pre-Trained Model
 
-### pre-trained Models
+### 2.1 pre-trained Models
 
     Following three pre-trained models are provided within models folder:
     
@@ -23,23 +23,23 @@ This package provides a diffusion model for the generation of pure silica zeolit
     - conditional_VF.ckpt : trained ZeoDiff model conditioned on void fraction
     - conditional_HOA.ckpt : trained ZeoDiff model conditioned on heat of adsorption
 
-### Examples
+### 2.2 Examples
 
-#### i) unconditional
+#### 2.2.1 unconditional
     
     $ python run.py with train=False n_sample=1000 model='/models/unconditional.ckpt'
 
-#### ii) conditional (void fraction of 0.20)
+#### 2.2.2 conditional (void fraction of 0.20)
     
     $ python run.py with train=False self_condition=True target_prop='VF' target_value=0.20 n_sample=1000 model='/models/conditional_VF.ckpt' sample_dir='sample_vf_0.20'
     
-#### iii) conditional (heat of adsorption of 25 kJ/mol)
+#### 2.2.3 conditional (heat of adsorption of 25 kJ/mol)
     
     $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 model='/models/conditional_HOA.ckpt' sample_dir='sample_hoa_25'
 
-## Train New model
+## 3. Train New model
     
-### Download Data    
+### 3.1 Download Data    
 
 [To be linked](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.2c01822).
 
@@ -49,13 +49,13 @@ This package provides a diffusion model for the generation of pure silica zeolit
     $ tar -zxvf training.tar.gz
     $ tar -zxvf test.tar.gz
 
-### Examples
+### 3.2 Examples
 
-#### i) unconditional
+#### 3.2.1 unconditional
     
     $ python run.py with train=True n_sample=1000 
     
-#### ii) conditional (void fraction)
+#### 3.2.2 conditional (void fraction)
     
     $ python run.py with train=False n_sample=1000 self_condition=True target_prop='VF'
     
