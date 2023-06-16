@@ -25,15 +25,15 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 ### Examples
 
-#### unconditional
+#### i) unconditional
     
     $ python run.py with train=False n_sample=1000 model='/models/unconditional.ckpt'
 
-#### conditional (void fraction of 0.20)
+#### ii) conditional (void fraction of 0.20)
     
     $ python run.py with train=False self_condition=True target_prop='VF' target_value=0.20 n_sample=1000 model='/models/conditional_VF.ckpt' sample_dir='sample_vf_0.20'
     
-#### conditional (heat of adsorption of 25 kJ/mol)
+#### iii) conditional (heat of adsorption of 25 kJ/mol)
     
     $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 model='/models/conditional_HOA.ckpt' sample_dir='sample_hoa_25'
 
