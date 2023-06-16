@@ -81,7 +81,7 @@ Please consider citing the following paper if you find this package useful.
 
 ## 5. Acknowledgements
 
-[Baekjun Kim](https://github.com/good4488) attributed for the data prepartion process and provided useful discussion.
+We greatly appreciate [Baekjun Kim](https://github.com/good4488) for the useful discussion.
 
 The DDPM codebase and many utility functions are adapted from the [hugging face](https://huggingface.co/blog/annotated-diffusion)
 
