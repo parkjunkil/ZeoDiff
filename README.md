@@ -64,4 +64,5 @@ This package provides a diffusion model for the generation of pure silica zeolit
 ## 4. Citation
 
 Please consider citing the following paper if you find this package useful.
+
 [To be linked](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.2c01822) 
