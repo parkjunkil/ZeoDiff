@@ -12,13 +12,6 @@ This package provides a diffusion model for the generation of pure silica zeolit
     $ git clone git@github.com/parkjunkil/ZeoDiff
     $ pip install -e .
 
-## Training/Test Data Download
-    
-    Training and test data are available at [To be linked](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.2c01822).
-    If you want to train the model, please download training.tar.gz and test.tar.gz from the above link, unzip, and locate it under the repository.
-    
-    $ tar -zxvf training.tar.gz
-    $ tar -zxvf test.tar.gz
     
 ## Generate New Samples using pre-Trained Model
 
@@ -45,4 +38,16 @@ This package provides a diffusion model for the generation of pure silica zeolit
     $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 model='/models/conditional_HOA.ckpt' sample_dir='sample_hoa_25'
 
 ## Train New model
+
+
+## Training/Test Data Download
     
+### Download Data    
+
+[To be linked](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.2c01822).
+
+    Training and test data are available at above link.
+    If you want to train the model, please download training.tar.gz and test.tar.gz, unzip, and locate it under the repository.
+    
+    $ tar -zxvf training.tar.gz
+    $ tar -zxvf test.tar.gz
