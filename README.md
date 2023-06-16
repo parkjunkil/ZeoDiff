@@ -23,9 +23,9 @@ If you want to train the model, please download training.tar.gz and test.tar.gz 
 ## Generate New Samples using pre-Trained Model
     
 Following three pre-trained models are provided within models folder:
-    #unconditional.ckpt : trained ZeoDiff model without user desirability
-    #conditional_VF.ckpt : trained ZeoDiff model conditioned on void fraction
-    #conditional_HOA.ckpt : trained ZeoDiff model conditioned on heat of adsorption
+# unconditional.ckpt : trained ZeoDiff model without user desirability
+# conditional_VF.ckpt : trained ZeoDiff model conditioned on void fraction
+# conditional_HOA.ckpt : trained ZeoDiff model conditioned on heat of adsorption
 
 - unconditional 
     $ python run.py with train=False n_sample=1000 model='/models/unconditional.ckpt'
