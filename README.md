@@ -21,7 +21,9 @@ If you want to train the model, please download training.tar.gz and test.tar.gz 
     $ tar -zxvf test.tar.gz
     
 ## Generate New Samples using pre-Trained Model
-    
+
+### Trained Models
+
     Following three pre-trained models are provided within models folder:
     
     - unconditional.ckpt : trained ZeoDiff model without user desirability
