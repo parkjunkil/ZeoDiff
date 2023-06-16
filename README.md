@@ -13,9 +13,9 @@ This package provides a diffusion model for the generation of pure silica zeolit
     $ pip install -e .
 
     
-## Generate New Samples using pre-Trained Model
+> ## Generate New Samples using pre-Trained Model
 
-    ### Trained Models
+>   > ### Trained Models
 
     Following three pre-trained models are provided within models folder:
     
