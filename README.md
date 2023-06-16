@@ -83,5 +83,5 @@ Please consider citing the following paper if you find this package useful.
 
 [Baekjun Kim](https://github.com/good4488) attributed for the data prepartion process and provided useful discussion.
 
-The DDPM codebase and many utility functions are adapted from the hugging face [link](https://huggingface.co/blog/annotated-diffusion)
+The DDPM codebase and many utility functions are adapted from the [hugging face](https://huggingface.co/blog/annotated-diffusion)
 
