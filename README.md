@@ -18,7 +18,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 ### 2.1 pre-trained Models
 
-    Following three pre-trained models are provided within models folder:
+    Following three pre-trained models/ are provided within models folder:
     
     - unconditional.ckpt : trained ZeoDiff model without user desirability
     - conditional_VF.ckpt : trained ZeoDiff model conditioned on void fraction
