@@ -81,7 +81,7 @@ Please consider citing the following paper if you find this package useful.
 
 ## 5. Acknowledgements
 
-The package is primary developed by Junkil Park. Baekjun Kim greatly fully attributed for the data prepartion process and provided useful discussion
+The package is primary developed by Junkil Park. Baekjun Kim [link](https://github.com/good4488) greatly attributed for the data prepartion process and provided useful discussion.
 
 The DDPM codebase and many utility functions are adapted from the hugging face [link](https://huggingface.co/blog/annotated-diffusion)
 
