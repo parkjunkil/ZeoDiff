@@ -29,17 +29,17 @@ This package provides a diffusion model for the generation of pure silica zeolit
 #### 2.2.1 unconditional
     
     $ mkdir sample_uncond
-    $ python run.py with train=False n_sample=1000 model_dir='/models/unconditional.ckpt' sample_dir='sample_uncond'
+    $ python run.py with train=False n_sample=1000 eval_model='unconditional.ckpt' sample_dir='sample_uncond'
 
 #### 2.2.2 conditional (void fraction of 0.20)
     
     $ mkdir sample_vf_0.20
-    $ python run.py with train=False self_condition=True target_prop='VF' target_value=0.20 n_sample=1000 model_dir='/models/conditional_VF.ckpt' sample_dir='sample_vf_0.20'
+    $ python run.py with train=False self_condition=True target_prop='VF' target_value=0.20 n_sample=1000 eval_model='conditional_VF.ckpt' sample_dir='sample_vf_0.20'
     
 #### 2.2.3 conditional (heat of adsorption of 25 kJ/mol)
     
      $ mkdir sample_hoa_25
-    $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 model_dir='/models/conditional_HOA.ckpt' sample_dir='sample_hoa_25'
+    $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 eval_model='conditional_HOA.ckpt' sample_dir='sample_hoa_25'
 
 ---------------------------------------
 
