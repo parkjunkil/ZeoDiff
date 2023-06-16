@@ -8,31 +8,33 @@ This package provides a diffusion model for the generation of pure silica zeolit
 ---
 
 ## Install
+    
     $ git clone git@github.com/parkjunkil/ZeoDiff
     $ pip install -e .
 
 ## Training/Test Data Download
+    
     Training and test data are available at "https://doi.org/10.6084/m9.figshare.xxxxxxxxx"
     If you want train the model, please download training.tar.gz and test.tar.gz from the above link, unzip, and locate it under the repository
     
-    $ tar -zxvf trianing.tar.gz
+    $ tar -zxvf training.tar.gz
     $ tar -zxvf test.tar.gz
     
 ## Generate New Samples using pre-Trained Model
     
-    Following three pre-trianed models are provided within models folder: unconditional.ckpt, conditional_VF.ckpt, and conditional_HOA.ckpt
-        unconditional.ckpt : trianed ZeoDiff model without user desirability
-        conditional_VF.ckpt : trained ZeoDiff model with conditioned on void fraction
-        conditional_HOA.ckpt : trained ZeoDiff model with conditioned on heat of adsorption
+    Following three pre-trained models are provided within models folder:
+        unconditional.ckpt : trained ZeoDiff model without user desirability
+        conditional_VF.ckpt : trained ZeoDiff model conditioned on void fraction
+        conditional_HOA.ckpt : trained ZeoDiff model conditioned on heat of adsorption
 
     - unconditional 
-    $ python run.py with train=True n_samples=1000 model='/models/unconditional.ckpt'
+    $ python run.py with train=False n_sample=1000 model='/models/unconditional.ckpt'
 
     - conditional (void fraction of 0.20)
-    $ python run.py with train=True n_samples=1000 model='/models/conditional_VF.ckpt' target_prop=0.20
+    $ python run.py with train=False self_condition=True target_prop='VF' target_value=0.20 n_sample=1000 model='/models/conditional_VF.ckpt' sample_dir='sample_vf_0.20'
     
-    - conditional (heat of adsorption of 20 kJ/mol)
-    $ python run.py with train=True n_samples=1000 model='/models/conditional_VF.ckpt' target_prop=0.20
+    - conditional (heat of adsorption of 25 kJ/mol)
+    $ python run.py with train=False self_condition=True target_prop='HOA' target_value=0.25 n_sample=1000 model='/models/conditional_HOA.ckpt' sample_dir='sample_hoa_25'
 
 ## Train New model
     
