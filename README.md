@@ -9,7 +9,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 ## 1. Install
     
-    $ git clone git@github.com/parkjunkil/ZeoDiff.git
+    $ git clone https://github.com/parkjunkil/ZeoDiff.git
     $ pip install setuptools
     $ pip install -e .
 
