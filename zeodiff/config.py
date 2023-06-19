@@ -29,7 +29,7 @@ def config():
 	c_dim_mults = (1,2,4)
 
 	# data
-	model_dir = "../models/"
+	model_dir = "models/"
 	train_dataset = "../data/training/"
 	test_dataset = "../data/test/"
 	batch_size = 128 # batch size per gpu
