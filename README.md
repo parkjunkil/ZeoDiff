@@ -53,7 +53,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
     
 ### 3.1 Download Data    
 
-[Figshare]([https://figshare.com/articles/dataset/ZeoDiff/23538738]).
+[Figshare](https://figshare.com/articles/dataset/ZeoDiff/23538738).
 
     Training and test data are available at above link.
     If you want to train the model, please download 'training.tar.gz' and 'test.tar.gz', unzip, and locate it under '/ZeoDiff/data/'.
