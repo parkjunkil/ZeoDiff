@@ -56,7 +56,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
 [To be linked](https://pubs.acs.org/doi/full/10.1021/acs.chemmater.2c01822).
 
     Training and test data are available at above link.
-    If you want to train the model, please download training.tar.gz and test.tar.gz, unzip, and locate it under the repository.
+    If you want to train the model, please download 'training.tar.gz' and 'test.tar.gz', unzip, and locate it under '/ZeoDiff/data/'.
     
     $ tar -zxvf training.tar.gz
     $ tar -zxvf test.tar.gz
