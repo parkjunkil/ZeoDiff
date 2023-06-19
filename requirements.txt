@@ -1,0 +1,16 @@
+einops
+matplotlib
+numpy
+PyQt5-sip==12.11.0
+pytorch-lightning==1.9.4
+PyYAML==6.0
+torch==2.0.0
+tqdm
+textwrap
+sacred>=0.8.2
+os
+glob
+pickle
+copy
+json
+inspect
