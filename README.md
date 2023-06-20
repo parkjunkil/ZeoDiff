@@ -69,10 +69,12 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 #### 3.2.1 unconditional
     
+    $ cd zeodiff
     $ python run.py with train=True n_sample=1000 train_dataset='../data/training/' test_dataset='../data/test/'
     
 #### 3.2.2 conditional (void fraction)
     
+    $ cd zeodiff
     $ python run.py with train=False n_sample=1000 self_condition=True target_prop='VF' train_dataset='../data/training/' test_dataset='../data/test/'
     
 ---------------------------------------
