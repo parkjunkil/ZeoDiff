@@ -49,7 +49,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
 ---------------------------------------
 
 
-## 3. Train New model
+## 3. Train New Model
     
 ### 3.1 Download Data    
 
