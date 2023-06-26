@@ -89,7 +89,7 @@ Please consider citing the following paper if you find this package useful.
 
 ## 5. Acknowledgements
 
-We greatly appreciate [Baekjun Kim](https://github.com/good4488) for the useful discussion.
+I greatly appreciate [Baekjun Kim](https://github.com/good4488) for the useful discussion.
 
 The DDPM baseline code and many other utility functions are adapted from the [hugging face](https://huggingface.co/blog/annotated-diffusion)
 
