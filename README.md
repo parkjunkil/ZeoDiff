@@ -12,7 +12,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
     We encourage users to build separate anaconda environment with python version >= 3.9.  GPU machine is required for the training.
     
     $ git clone https://github.com/parkjunkil/ZeoDiff.git
-    $ conda crate -name zeodiff python=3.9
+    $ conda create -name zeodiff python=3.9
     $ conda activate zeodiff
     $ pip install -r requirements.txt
 
