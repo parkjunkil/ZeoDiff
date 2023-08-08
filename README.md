@@ -99,3 +99,4 @@ I greatly appreciate [Baekjun Kim](https://github.com/good4488) for the useful d
 
 The DDPM baseline code and many other utility functions are adapted from the [hugging face](https://huggingface.co/blog/annotated-diffusion)
 
+For a more detailed description of this project, please contact parkjunkil@kaist.ac.kr
