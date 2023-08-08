@@ -20,7 +20,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 ## 2. Generate New Samples using a pre-Trained Model
 
-### 2.1 pre-trained Models
+### 2.1 Descriptions on pre-trained Models
 
     Following three pre-trained models are provided within models/ folder:
     
@@ -29,7 +29,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
     - conditional_HOA.ckpt : trained ZeoDiff model conditioned on heat of adsorption
 
 ### 2.2 Examples
-
+    Generated zeolite grids can be visualized using [griday](https://github.com/good4488/GRIDAY2)
 #### 2.2.1 unconditional
 
     $ cd zeodiff
