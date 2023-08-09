@@ -6,8 +6,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
 [Chemrxiv](https://chemrxiv.org/engage/chemrxiv/article-details/64b62833ae3d1a7b0de69d62) 
 
 <p align="center">
-
-![snapshot_half](https://github.com/parkjunkil/ZeoDiff/assets/88761984/96ca528b-0525-41d3-ae42-754d562d1cad)
+<img src=https://github.com/parkjunkil/ZeoDiff/assets/88761984/96ca528b-0525-41d3-ae42-754d562d1cad>
 
 
 ---
