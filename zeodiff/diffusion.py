@@ -120,7 +120,7 @@ class GaussianDiffusion(nn.Module):
 
 		for i in range(len(imgs)):
 			data = imgs[i].reshape(channels, grid_size, grid_size, grid_size)
-			write_visit_sampmle(data, cell=cell_param, stem='sample_'+str(i), save_dir = directory)	 
+			write_visit_sample(data, cell=cell_param, stem='sample_'+str(i), save_dir = directory)	 
 
 
 	@torch.no_grad()
