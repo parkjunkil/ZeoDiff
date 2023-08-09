@@ -30,9 +30,7 @@ This package provides a diffusion model for the generation of pure silica zeolit
 
 ### 2.2 Examples
 
-Generated zeolite grids can be visualized using 
-
-[griday](https://github.com/good4488/GRIDAY2)
+Generated zeolite grids can be visualized using [griday](https://github.com/good4488/GRIDAY2)
 
 #### 2.2.1 unconditional
 
