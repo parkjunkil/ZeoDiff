@@ -1,6 +1,6 @@
 
+![TOC](https://github.com/parkjunkil/ZeoDiff/assets/88761984/69cb4eb6-246f-49b6-8296-54e7e8b9aaa7)
 
-![TOC](https://github.com/parkjunkil/ZeoDiff/static/object/TOC.png)
 
 This package provides a diffusion model for the generation of pure silica zeolite, ZeoDiff (short for Zeolite Diffusion), which generated porous materials using a diffusion model for the first time. The model was developed based on the framework of Denoising Diffusion Probabilistic Model (DDPM) with zeolite structures represented as three dimensional grids of energy, silicon, and oxygen channels. Our model successfully generated realistic zeolite structures while exhibiting a capability of inverse design with user-desired properties.
 
