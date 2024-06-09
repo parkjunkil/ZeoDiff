@@ -90,8 +90,11 @@ Generated zeolite grids can be visualized using [vislt](https://visit-dav.github
 ## 4. Citation
 
 Please consider citing the following paper if you find this package useful.
+
 [Journal](https://pubs.rsc.org/en/content/articlehtml/2024/ta/d3ta06274k).
+
 [Chemrxiv](https://chemrxiv.org/engage/chemrxiv/article-details/64b62833ae3d1a7b0de69d62).
+
 ---------------------------------------
 
 ## 5. Acknowledgements
