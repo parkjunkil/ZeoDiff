@@ -194,7 +194,7 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Zeolite Generation Process </h2>
         <p>
-         Within ZeoDIFF, zeolite structures are represented as 3-channel grids of silicon, oxygen, and energy, analogous to RGB images. A DDPM algorithm is applied, where structures are generated from sampled noise through an iterative denoising process.        </p>
+         Within ZeoDIFF, zeolite structures are represented as 3-channel grids of silicon, oxygen, and energy, analogous to RGB images. A DDPM algorithm is applied, where structures are generated from sampled noise through an iterative denoising process. ZeoDIFF exhibited 2,000 fold enhanced generation performance compared to previously reported GAN architecture.      </p>
       </div>
      </div>
     </div>
@@ -207,6 +207,29 @@
     </div>
   </div>
 </section>
+
+<section class="section">
+  <div class="container is-max-desktop">    
+    <!-- Conditoining. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Post Processing Procedure </h2>
+        <p>
+         Post processing has been applied to the generated graphs to acquire clean chemical structures from the zeolite grids. In this work, rule-based post-processing was applied where the positions of each atoms were determined as the centroid of the neighboring voxels. </p>
+      </div>
+     </div>
+    </div>
+</section>        
+ 
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/object/Post_Processing_Workflow.jpg">
+    </div>
+  </div>
+</section>
+
+
 
 
 <section class="section">
